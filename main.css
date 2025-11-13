@@ -14,14 +14,20 @@ body{
 }
 
 .container{
-    max-width: 1597px;
+    max-width: 1595px;
     margin: 0 auto;
 }
 .row{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
+.margin-top{
+    margin-top: 50px;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
 .top-baner{
     background-color: var(--main-color);
     text-align: center;
@@ -34,11 +40,13 @@ body{
     padding: 10px;
 
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #F1F1F3;
+    margin-bottom: 80px;
     
 }
 .menu{
@@ -68,8 +76,237 @@ ul li a{
 .color-btn{
     background-color: var(--main-color);
     border-radius: 8px;
-    padding: 14px 34px;
+    padding: 18px 24px;
     border: unset;
     color: #FFFFFF;
     
+}
+
+ .abstract-Line{
+    position: relative;
+    left: 322px;
+    top: 20px;
+}
+
+
+.heading{
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    padding: 14px 30px 14px 20px;
+    gap: 10px;
+    border-radius: 11px;
+    
+}
+.heading h1{
+    color: #1A1A1A;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+   
+
+}
+.heading i{
+    width: 62px;
+    height: 62px;
+    background-color:#FFF4E5 ;
+    color: var(--text-color);
+    padding: 14px;
+    border-radius: 6px;
+    
+}
+
+.mini-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.hero-section span{
+    color: var(--main-color);
+}
+
+.hero-section h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--text-color);
+    margin-top: 20px;
+
+}
+
+.hero-section h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--text-color);
+    margin-top: 10px;
+}
+.hero-btns{
+    justify-content: center;
+    gap: 12px;
+    margin-top: 50px;
+    
+}
+
+.programes-section{
+    border: 1px solid #F1F1F3;
+    background-color: #FCFCFD;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.benefits-section h2{
+    color:var(--text-color);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.benefits-section p{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+}
+.white-btn{
+    border: 1px solid #F1F1F3;
+    background-color: #FFFFFF;
+    color: var(--text-color);
+    border-radius: 8px;
+    padding: 18px 24px;
+}
+.lorem {
+    gap: 300px;
+}
+
+.cards{
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.cards-style{
+    width: 519px;
+    height: 437px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 50px;
+    
+}
+.cards h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 24px;
+    text-align: right;
+    color: var(--text-color);
+    padding: 40px 0;
+}
+.cards h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.6px;
+    color:#333333 ;
+    padding-bottom: 20px;
+}
+
+.cards p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+    padding-bottom: 50px;
+}
+.cards i{
+    color: var(--main-color);
+    border: 1px solid #F1F1F3;
+    background-color: #FCFCFD;
+    width: 74px;
+    height: 74px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 20px;
+    position: relative;
+    left: 380px;
+    
+}
+.courses-section h2{
+    color:var(--text-color);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+.courses-section p{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+}
+
+.foto-side{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.web-design-style{
+    border: 1px solid#F1F1F3 ;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+
+.btn-for-courses{
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 10px 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+
+}
+.button-class{
+    justify-content: space-between;
+
+}
+
+.courses-section h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--text-color);
+    margin: 20px 20px;
+
+}
+.courses-section h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.courses-section p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+    margin-bottom: 40px;
+}
+
+.get-button{
+    width: 683.5px;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    background-color: #F7F7F8;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 18px 24px;
 }
