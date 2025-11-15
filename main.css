@@ -570,7 +570,6 @@ text-align: center;
 .footer-menu{
     background-color: #FFFFFF;
     margin-top: 100px;
-    justify-content: space-between;
     padding: 50px 100px 50px 20px ;
 
     
@@ -579,6 +578,7 @@ text-align: center;
     gap: 100px;
     padding-right: 50px;
     align-items: flex-start;
+
 }
 .contact img{
    padding-bottom: 20px;
@@ -614,12 +614,112 @@ text-align: center;
 }
 
 footer{
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+}
+.menu-side {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+hr{
+    color:rgba(65, 65, 65, 0.9)
 }
 .c{
     text-align: center;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    color: #656567 ;
 }
-.last{
-    margin-bottom: 100px;
+
+/* მეორე გვერდი*/
+
+.online-courses{
+    border-bottom: 1px solid #E4E4E7;
+    gap: 100px;
+    justify-content: space-between;
+}
+.online-courses h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.online-courses p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+}
+
+.detales{
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 50px;
+}
+.detales h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.fundamentals{
+    gap: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.fundamentals p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #59595A;
+    justify-content: space-between;
+    
+}
+.fundamentals button{
+    border: 1px solid #F1F1F3;
+    background-color: #FCFCFD;
+    padding: 14px 24px;
+    border-radius: 8px;
+    color:#262626 ;
+    font-size: 18px;
+
+}
+.photo-part{
+    gap: 30px;
+}
+
+.john-smith{
+    justify-content: space-between;
+    margin: 10px 0px 50px 0;
+}
+.bgnrs{
+    gap: 10px;
+    font-size: 14px;
+}
+.detales h5{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    border-bottom: 1px solid #F1F1F3;
+}
+.numbers{
+    border: 1px solid #F1F1F3;
+    border-radius: 12px;
+    padding: 30px 50px 30px 10px;
+    gap: 50px;
+    justify-content: space-between;
+}
+.numbers h1{
+    margin: 10px;
+    justify-content: space-between;
+}
+.numbers p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
 }
