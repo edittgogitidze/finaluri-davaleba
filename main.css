@@ -615,6 +615,7 @@ text-align: center;
 
 footer{
     margin-bottom: 50px;
+    background-color: #FFFFFF;
 }
 .menu-side {
     justify-content: space-between;
@@ -722,4 +723,144 @@ hr{
     font-size: 18px;
     line-height: 150%;
     color: #333333;
+}
+ 
+/* მესამე გვერდი*/
+
+.about-design{
+    border-bottom: 1px solid #E4E4E7;
+    gap: 100px;
+    justify-content: space-between;
+}
+.about-design h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.about-design p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+}
+
+.photo-section img{
+    border-radius: 12px;
+    width: 1596px;
+    margin: 50px 0;
+}
+
+.abous-lessons{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 50px;
+    width: 770px;
+
+}
+.lesson1, .lesson2,.lesson3 {
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 24px 50px;
+    margin-bottom: 20px;
+    gap: 200px;
+    
+}
+
+.satauri h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin: 50px 0 50px 0;
+    text-align: right;
+}
+.satauri h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.6px;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.for-lessons{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    
+    
+}
+
+/*მეოთხე გვერდი*/
+
+.about-skillbridge{
+    border-bottom: 1px solid #E4E4E7;
+    gap: 100px;
+    justify-content: space-between;
+}
+.about-skillbridge h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.about-skillbridge p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+}
+
+.achieve h3{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 150%;
+    color:#333333 ;
+    margin-top: 100px;
+}
+.achieve p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #59595A;
+    margin-bottom: 50px;
+}
+
+.icon-text{
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+
+.icon-text div{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.icon-text i{
+    border: 1px solid #FFEACC;
+    border-radius: 8px;
+    background-color: #FFF9F0;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+
+}
+span{
+    color: var(--main-color);
+}
+
+.together{
+    background-color:#FFFFFF ;
+    border-radius: 12px;
+    padding: 80px;
+    gap: 300px;
+}
+.together h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 10px;
 }
