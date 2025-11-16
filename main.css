@@ -92,27 +92,23 @@ ul li a{
 
  .abstract-Line{
     position: relative;
-    left: 322px;
+    left: 455px;
     top: 20px;
 }
 
-
 .heading{
-    background-color: #FCFCFD;
     border: 1px solid #F1F1F3;
-    padding: 14px 30px 14px 20px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFD;
+    margin: 0 481px 0 481px;
     gap: 10px;
-    border-radius: 11px;
-    
 }
-.heading h1{
-    color: #1A1A1A;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 150%;
    
 
-}
+
 .heading i{
     width: 62px;
     height: 62px;
@@ -123,17 +119,14 @@ ul li a{
     
 }
 
-.mini-container{
-    max-width: 900px;
-    margin: 0 auto;
-}
+
 .hero-section span{
     color: var(--main-color);
 }
 
 .hero-section h2{
     text-align: center;
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 150%;
     color: var(--text-color);
@@ -160,23 +153,114 @@ ul li a{
     border: 1px solid #F1F1F3;
     background-color: #FCFCFD;
     margin-top: 40px;
-    border-radius: 12px;
-    padding: 30px;
+    border-radius: 8px;
+    padding: 24px;
 }
-
+.programes-section img{
+    border-right: 1px solid #F1F1F3;
+}
 img{
     max-width: 100%;
 }
 
+.benefit-part{
+    gap: 575px;
+}
+
 .benefits-section h2{
     color:var(--text-color);
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 600;
     line-height: 150%;
+    letter-spacing: 0%;
 
 }
 
 .benefits-section p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #59595A;
+}
+.white-btn{
+    border: 1px solid #F1F1F3;
+    background-color: #FCFCFD;
+    color: var(--text-color);
+    border-radius: 8px;
+    padding: 14px 20px;
+
+}
+
+
+.cards{
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cards-style{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px;
+    width: 519px;
+    height: 437px;
+}
+
+.cards h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+.cards h3{
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.cards p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+    
+
+}
+
+.cards i{
+    border: 1px solid  #F1F1F3;
+    background-color: #FCFCFD;
+    border-radius: 6px;
+    padding: 14px;
+    color: var(--main-color);
+    width: 74px;
+    height: 74px;
+    position: relative;
+    left: 350px;
+}
+
+
+.courses-part{
+    gap: 300px;
+    margin-bottom: 50px;
+}
+
+
+.courses-section h2{
+    color:var(--text-color);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.courses-section p{
     font-weight: 400px;
     font-size: 18px;
     line-height: 150%;
@@ -184,90 +268,31 @@ img{
 }
 .white-btn{
     border: 1px solid #F1F1F3;
-    background-color: #FFFFFF;
-    color: var(--text-color);
-    border-radius: 8px;
-    padding: 18px 24px;
-}
-.lorem {
-    gap: 300px;
-    justify-content: space-between;
-}
-
-.cards{
-    gap: 10px;
-    flex-wrap: wrap;
-
-}
-.cards-style{
-    width: 519px;
-    height: 437px;
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 12px;
-    padding: 50px;
-    
-}
-.cards h1{
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 24px;
-    text-align: right;
-    color: var(--text-color);
-    padding: 40px 0;
-}
-.cards h3{
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    letter-spacing: -0.6px;
-    color:#333333 ;
-    padding-bottom: 20px;
-}
-
-.cards p{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: #4C4C4D;
-    padding-bottom: 50px;
-}
-.cards i{
-    color: var(--main-color);
-    border: 1px solid #F1F1F3;
     background-color: #FCFCFD;
-    width: 74px;
-    height: 74px;
-    text-align: center;
+    color: var(--text-color);
     border-radius: 8px;
-    padding: 20px 20px;
-    position: relative;
-    left: 380px;
-    
+    padding: 14px 20px;
+
 }
-.courses-section h2{
-    color:var(--text-color);
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 150%;
-    margin-bottom: 15px;
-}
-.courses-section p{
-    font-weight: 400px;
-    font-size: 18px;
-    line-height: 150%;
-    color: #59595A;
-}
+
 
 .foto-side{
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
+
+
 .web-design-style{
     border: 1px solid#F1F1F3 ;
     border-radius: 12px;
     background-color: #FFFFFF;
-    padding: 50px;
+    padding: 40px;
+    justify-content: space-between;
+    
+}
+
+.courses-section img{
+    border-radius: 8px;
 }
 
 .btn-for-courses{
@@ -280,8 +305,10 @@ img{
     line-height: 100%;
 
 }
-.button-class{
+.button-style{
+    margin: 20px 0;
     justify-content: space-between;
+    gap: 10px;
 
 }
 
@@ -290,7 +317,7 @@ img{
     font-size: 20px;
     line-height: 100%;
     color: var(--text-color);
-    margin: 20px 20px;
+
 
 }
 .courses-section h4{
@@ -298,10 +325,11 @@ img{
     font-size: 24px;
     line-height: 150%;
     color: var(--text-color);
+    letter-spacing: 0%;
     margin-bottom: 20px;
 }
 
-.courses-section p{
+.web-design-style p{
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -320,13 +348,20 @@ img{
     padding: 18px 24px;
 }
 
+.testimonials-part{
+    gap: 300px;
+    margin-bottom: 50px;
+}
+
 .testimonials-section h2{
     color:var(--text-color);
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 600;
     line-height: 150%;
-    margin-bottom: 15px;
+    letter-spacing: 0%;
+
 }
+
 .testimonials-section p{
     font-weight: 400px;
     font-size: 18px;
@@ -334,23 +369,27 @@ img{
     color: #59595A;
 }
 
+
 .recommendators{
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 30px;
     
 }
 .recommendators p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 150%;
+    letter-spacing: 0px;
     color:#4C4C4D ;
-    padding-bottom: 40px;
+    padding: 50px;
 }
 
 .recommend{
     justify-content: space-between;
     background-color:#FCFCFD ;
-    padding: 24px 40px;
+    padding: 0px 50px;
+
 }
 .recommend h6{
     font-weight: 600;
@@ -369,7 +408,7 @@ img{
 .recommendators-style{
     border: 1px solid #F1F1F3;
     border: 12px;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 
@@ -416,6 +455,10 @@ img{
     font-size: 14px;
     border: unset;
     background-color: unset;
+}
+
+.for-btns{
+    gap: 500px;
 }
 
 .free{
@@ -748,8 +791,9 @@ hr{
 }
 
 .photo-section img{
-    border-radius: 12px;
-    width: 1596px;
+    border: 16px solid #F7F7F8;
+    border-radius: 10px;
+    width: 1595px;
     margin: 50px 0;
 }
 
@@ -834,22 +878,25 @@ hr{
 .icon-text{
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 
 .icon-text div{
+    justify-content: space-between;
     background-color: #FFFFFF;
     border-radius: 12px;
     padding: 40px;
+
 }
 
-.icon-text i{
+.icon-text div i{
     border: 1px solid #FFEACC;
     border-radius: 8px;
     background-color: #FFF9F0;
-    padding: 16px 20px;
+    color: var(--main-color);
     margin-bottom: 20px;
+    
 
 }
 span{
@@ -904,4 +951,45 @@ span{
     padding: 12px;
     gap: 10px;
     text-align: center;
+}
+
+.light-btn:hover{
+    background-color: var(--main-color);
+}
+.color-btn:hover{
+    background-color: green;
+}
+.white-btn:hover{
+    background-color: var(--main-color);
+}
+.btn-for-courses:hover{
+    background-color: var(--main-color);
+}
+.get-button:hover{
+    background-color: var(--main-color);
+}
+button:hover{
+    background-color: var(--main-color);
+}
+.ybtn:hover{
+    background-color: var(--main-color);
+}
+.mbtn:hover{
+    background-color: green;
+}
+.start:hover{
+    background-color: green;
+}
+nav ul li:hover{
+    background-color: gray;
+}
+
+
+@media only screen and (max-width: 768){
+    .row{
+    flex-direction:column
+}
+*{
+    width: 50%;
+}
 }
